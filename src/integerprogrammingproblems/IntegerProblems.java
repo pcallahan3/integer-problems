@@ -50,4 +50,5 @@ public class IntegerProblems {
 		
 		return -1;
 	}
+	
 }
