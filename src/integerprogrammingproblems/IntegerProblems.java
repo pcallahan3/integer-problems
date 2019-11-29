@@ -20,7 +20,8 @@ public class IntegerProblems {
 	 *     4. Sum element of the array indexes
 	 *     5. Return the sum of the elements
 	 *     
-	 * Space and time complexity of sumArray = O(1 + 1 + 1) + O(n) = O(n)
+	 * Space and time complexity of sumArray() = O(1 + 1 + 1) + O(n) = O(n)
+	 *                              sumArray() = O(n) complexity
 	 */
 	static int sumArray(int[] arr) {
 		int sum = 0;// O(1) constant time operation
@@ -39,12 +40,15 @@ public class IntegerProblems {
 	 *     2. Loop over the length of the array and increment the index.
 	 *     3. Check if key is in the array if it is return key.
 	 *     4. If key is not in array return -1.
+	 *     
+	 * Space and time complexity of findElementInArray() = O(1 + 1) + O(n) = O(n)
+	 *                              findElementInArray() = O(n) complexity 
 	 */
 	
 	static int findElementInArray(int[] arr,int key) {
-		for(int i = 0;i < arr.length;i++) {
-			if(arr[i] == key) {
-				return key;
+		for(int i = 0;i < arr.length;i++) {//O(n) linear time operation 
+			if(arr[i] == key) {//O(1) constant time operation 
+				return key;//O(1) constant time operation 
 			}
 		}
 		
@@ -52,3 +56,4 @@ public class IntegerProblems {
 	}
 	
 }
+
