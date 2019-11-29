@@ -7,7 +7,8 @@ public class IntegerProblems {
 	public static void main(String[] args) {
 		
 		int[] arr = {1,23,2,24,3};
-		System.out.println(sumArray(arr));
+		System.out.println(findElementInArray(arr, 23));
+		
 	}
 
 	
@@ -19,7 +20,7 @@ public class IntegerProblems {
 	 *     4. Sum element of the array indexes
 	 *     5. Return the sum of the elements
 	 *     
-	 * Space and time complexity of f = O(1 + 1 + 1) + O(n) = O(n)
+	 * Space and time complexity of sumArray = O(1 + 1 + 1) + O(n) = O(n)
 	 */
 	static int sumArray(int[] arr) {
 		int sum = 0;// O(1) constant time operation
@@ -30,15 +31,25 @@ public class IntegerProblems {
 		return sum;//O(1) constant time operation
 	}
 	
-	/* Problem statement: Find if an element exists in an array of integers if element doesnt exist throw 
-	 *                    an error.
+	
+	/* Problem statement: Find if an element exists in an array of integers if element doesnt exist return -1.
 	 * Pseudocode for findElementInArray() function: 
 	 *     1. Create a function that takes in 2 arguments one which is an array to search, 2nd argument for a 
 	 *        key element to find.
-	 *     2. Loop over the length of the array and increment the index
-	 *     3. Check if key is in the array if it is return key
-	 *     4. Else throw an error 
+	 *     2. Loop over the length of the array and increment the index.
+	 *     3. Check if key is in the array if it is return key.
+	 *     4. If key is not in array return -1.
 	 */
+	
+	static int findElementInArray(int[] arr,int key) {
+		for(int i = 0;i < arr.length;i++) {
+			if(arr[i] == key) {
+				return key;
+			}
+		}
+		
+		return -1;
+	}
 	
 	
 	
