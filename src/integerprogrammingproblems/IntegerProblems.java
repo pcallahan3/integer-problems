@@ -38,10 +38,10 @@ public class IntegerProblems {
 	 *     1. Create a function that takes in 2 arguments one which is an array to search, 2nd argument for a 
 	 *        key element to find.
 	 *     2. Loop over the length of the array and increment the index.
-	 *     3. Check if key is in the array if it is return key.
-	 *     4. If key is not in array return -1.
+	 *     3. Check if key is in the array if it is return the key.
+	 *     4. If key is not in the array return -1.
 	 *     
-	 * Space and time complexity of findElementInArray() = O(1 + 1) + O(n) = O(n)
+	 * Space and time complexity of findElementInArray() = O(1 + 1 + 1) + O(n) = O(n)
 	 *                              findElementInArray() = O(n) complexity 
 	 */
 	
@@ -52,8 +52,19 @@ public class IntegerProblems {
 			}
 		}
 		
-		return -1;
+		return -1;//O(1) constant time operation 
 	}
+	
+	/* Problem statement: Find the maximum integer in an array of integers.
+	 * Pseudocode for for findMaxIntegerInArray() function:
+	 *     1. Create a function that takes in an array of integers and finds the maximum integer.
+	 *     2. Declare and initialize an int named max that sets the first index of the array to max.
+	 *     3. Loop over the length of the array, increment the index.
+	 *     4. Check if the index is greater than the max, if it is, assign the index to max.
+	 *     5. Loop until the index is less than the max and return the max.
+	 * 
+	 */
+	
 	
 }
 
