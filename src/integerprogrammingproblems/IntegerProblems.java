@@ -62,18 +62,19 @@ public class IntegerProblems {
 	 *     3. Loop over the length of the array, increment the index.
 	 *     4. Check if the index is greater than the max, if it is, assign the index to max.
 	 *     5. Loop until the index is less than the max and return the max.
-	 *    
+	 *  
+	 *  Space and time complexity findMaxIntegerInArray(): O(1 + 1 + 1 + 1 ) + O(n) = O(n)
 	 * 
 	 */
 	 
 	static int findMaxIntegerInArray(int[] arr) {
-		int max = arr[0];
-		for(int i = 0;i < arr.length;i++) {
-			if(arr[i] > max) {
-				max = arr[i];
+		int max = arr[0];//O(1) constant time operation
+		for(int i = 0;i < arr.length;i++) {//O(n) linear time operation 
+			if(arr[i] > max) {//O(1) constant time operation 
+				max = arr[i];//O(1) constant time operation 
 			}
 		}
-		return max;
+		return max;//O(1) constant time operation
 	}
 
 	
