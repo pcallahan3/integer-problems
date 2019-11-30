@@ -6,8 +6,8 @@ public class IntegerProblems {
 
 	public static void main(String[] args) {
 		
-		int[] arr = {1,23,2,2434,3};
-		System.out.println(findMaxIntegerInArray(arr));
+		int[] arr = {122,23,21,132,1013};
+		System.out.println(findMinIntegerInArray(arr));
 		
 	}
 
@@ -64,6 +64,7 @@ public class IntegerProblems {
 	 *     5. Loop until the index is less than the max and return the max.
 	 *  
 	 *  Space and time complexity findMaxIntegerInArray(): O(1 + 1 + 1 + 1 ) + O(n) = O(n)
+	 *  						  findMaxintegerInArray() = O(n) complexity
 	 * 
 	 */
 	 
@@ -77,18 +78,28 @@ public class IntegerProblems {
 		return max;//O(1) constant time operation
 	}
 	
-	/* Problem statement: Find the minimum of integer an array of integers.
+	/* Problem statement: Find the minimum integer of an array of integers.
 	 * Pseudcode for findMinIntegerInArray() function:
 	 *    1. Create a function that takes in an array of integers.
 	 *    2. Declare and initialize a variable named min to the first index of the array.
 	 *    3. Loop over the length of the array and increment the index.
 	 *    4. Check if the index is less than min, if it is, assign the index to min.
 	 *    5. Loop until the index is greater than the min and return the min.
-	 * 
-	 * 
+	 *    
+	 *  Space and time complexity of findMinIntegerInArray(): O(1 + 1 + 1 + 1) + O(n) = O(n)
+	 *                               findMinIntegerInArray() = O(n)
 	 */
 	
-	
+	static int findMinIntegerInArray(int[] arr) {
+		int min = arr[0];//O(1) constant time operation 
+		for(int i = 0;i < arr.length;i++) {//O(n) linear time operation 
+			if(arr[i] < min) {//O(1) constant time operation
+				min = arr[i];//O(1) constant time operation 
+			}
+		}
+		
+		return min;//O(1) constant time operation
+	}
 
 	
 }
