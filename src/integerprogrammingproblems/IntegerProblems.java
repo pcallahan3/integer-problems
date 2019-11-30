@@ -56,7 +56,7 @@ public class IntegerProblems {
 	}
 	
 	/* Problem statement: Find the maximum integer in an array of integers.
-	 * Pseudocode for for findMaxIntegerInArray() function:
+	 * Pseudocode for findMaxIntegerInArray() function:
 	 *     1. Create a function that takes in an array of integers and finds the maximum integer.
 	 *     2. Declare and initialize an int named max that sets the first index of the array to max.
 	 *     3. Loop over the length of the array, increment the index.
@@ -76,6 +76,19 @@ public class IntegerProblems {
 		}
 		return max;//O(1) constant time operation
 	}
+	
+	/* Problem statement: Find the minimum of integer an array of integers.
+	 * Pseudcode for findMinIntegerInArray() function:
+	 *    1. Create a function that takes in an array of integers.
+	 *    2. Declare and initialize a variable named min to the first index of the array.
+	 *    3. Loop over the length of the array and increment the index.
+	 *    4. Check if the index is less than min, if it is, assign the index to min.
+	 *    5. Loop until the index is greater than the min and return the min.
+	 * 
+	 * 
+	 */
+	
+	
 
 	
 }
