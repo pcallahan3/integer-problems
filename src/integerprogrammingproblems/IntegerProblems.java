@@ -6,8 +6,8 @@ public class IntegerProblems {
 
 	public static void main(String[] args) {
 		
-		int[] arr = {1,23,2,24,3};
-		System.out.println(findElementInArray(arr, 23));
+		int[] arr = {1,23,2,2434,3};
+		System.out.println(findMaxIntegerInArray(arr));
 		
 	}
 
@@ -64,7 +64,17 @@ public class IntegerProblems {
 	 *     5. Loop until the index is less than the max and return the max.
 	 * 
 	 */
-	
+	 
+	static int findMaxIntegerInArray(int[] arr) {
+		int max = arr[0];
+		for(int i = 0;i < arr.length;i++) {
+			if(arr[i] > max) {
+				max = arr[i];
+			}
+		}
+		return max;
+	}
+
 	
 }
 
