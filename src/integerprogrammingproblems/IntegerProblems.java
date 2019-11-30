@@ -62,6 +62,7 @@ public class IntegerProblems {
 	 *     3. Loop over the length of the array, increment the index.
 	 *     4. Check if the index is greater than the max, if it is, assign the index to max.
 	 *     5. Loop until the index is less than the max and return the max.
+	 *    
 	 * 
 	 */
 	 
