@@ -6,10 +6,14 @@ public class IntegerProblems {
 
 	public static void main(String[] args) {
 		
-		int[] arr = {122,23,21,132,1013};
-		System.out.println(findMinIntegerInArray(arr));
+	 
 		
-	}
+        int[] arr = { 2, 3, 4, 10, 40, 45, 12, 23, 1 }; 
+       
+		
+		
+    } 
+		
 
 	
 	/* Problem statement: Sum an array of integers.
@@ -79,7 +83,7 @@ public class IntegerProblems {
 	}
 	
 	/* Problem statement: Find the minimum integer of an array of integers.
-	 * Pseudcode for findMinIntegerInArray() function:
+	 * Pseudocode for findMinIntegerInArray() function:
 	 *    1. Create a function that takes in an array of integers.
 	 *    2. Declare and initialize a variable named min to the first index of the array.
 	 *    3. Loop over the length of the array and increment the index.
@@ -100,7 +104,18 @@ public class IntegerProblems {
 		
 		return min;//O(1) constant time operation
 	}
+	
 
+	 /* Problem statement: Find the middle element of an array and print the element and index where element is
+	  *                    located at.
+	  * Pseudocode for getMiddleElement() function:
+	  *   1. Create a void function that takes in 3 arguments, an array, the first index, and the last index.
+	  *   2. Declare and initialize a variable named middleElement to the first index + the last index / by 2.
+	  *   3. Print the middle index of the array and the element at the index.
+	  * 
+	  */
+	
+	
 	
 }
 
