@@ -85,13 +85,14 @@ public class IntegerProblems {
 	/* Problem statement: Find the minimum integer of an array of integers.
 	 * Pseudocode for findMinIntegerInArray() function:
 	 *    1. Create a function that takes in an array of integers.
-	 *    2. Declare and initialize a variable named min to the first index of the array.
+	 *    2. Declare a variable named min and 
+	 *    initialize to the first index of the array.
 	 *    3. Loop over the length of the array and increment the index.
 	 *    4. Check if the index is less than min, if it is, assign the index to min.
 	 *    5. Loop until the index is greater than the min and return the min.
 	 *    
 	 *  Space and time complexity of findMinIntegerInArray(): O(1 + 1 + 1 + 1) + O(n) = O(n)
-	 *                               findMinIntegerInArray() = O(n)
+	 *                               findMinIntegerInArray() = O(n) complexity 
 	 */
 	
 	static int findMinIntegerInArray(int[] arr) {
@@ -113,11 +114,13 @@ public class IntegerProblems {
 	  *   2. Declare a variable named middleElement and initialize to the first index + the last index / by 2.
 	  *   3. Print the middle index of the array and the element at the index.
 	  * 
-	  */
+	  *  Space and time complexity analysis of getMiddleElement(): O(1 + 1) = O(1)
+	  *                                        getMiddleElement() = O(1) complexity 
+	  */                                       
 	
 	static void getMiddleElement(int[] arr,int firstIndex,int lastIndex) {
-		int middleElement = (firstIndex + lastIndex) / 2;
-		System.out.println("The middle element is: " + middleElement + " and the element at the middle index is:" + arr[middleElement]);
+		int middleElement = (firstIndex + lastIndex) / 2;//O(1) time complexity 
+		System.out.println("The middle element is: " + middleElement + " and the element at the middle index is:" + arr[middleElement]);//O(1) time complexity
 		
 	}
 	
