@@ -8,9 +8,9 @@ public class IntegerProblems {
 		
 	 
 		
-        int[] arr = { 2, 3, 4, 10, 40, 45, 12, 23, 1 }; 
+        int[] arr = { 2, 3, 4, 10, 40, 45, 12, 23, 1,12,13,14,12}; 
+        getMiddleElement(arr, 0, arr.length - 1);
        
-		
 		
     } 
 		
@@ -110,10 +110,16 @@ public class IntegerProblems {
 	  *                    located at.
 	  * Pseudocode for getMiddleElement() function:
 	  *   1. Create a void function that takes in 3 arguments, an array, the first index, and the last index.
-	  *   2. Declare and initialize a variable named middleElement to the first index + the last index / by 2.
+	  *   2. Declare a variable named middleElement and initialize to the first index + the last index / by 2.
 	  *   3. Print the middle index of the array and the element at the index.
 	  * 
 	  */
+	
+	static void getMiddleElement(int[] arr,int firstIndex,int lastIndex) {
+		int middleElement = (firstIndex + lastIndex) / 2;
+		System.out.println("The middle element is: " + middleElement + " and the element at the middle index is:" + arr[middleElement]);
+		
+	}
 	
 	
 	
