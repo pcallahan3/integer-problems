@@ -11,7 +11,8 @@ public class IntegerProblems {
         int[] arr = { 2, 3, 4, 10, 40, 45, 12, 23, 1,12,13,14,12}; 
         //getMiddleElement(arr, 0, arr.length - 1);
        //System.out.println(sumArray(arr));
-        printElementsUsingWhileLoop(arr);
+        //printElementsUsingWhileLoop(arr);
+        checkIfOddOrEven(13);
 		
     } 
 		
@@ -126,8 +127,8 @@ public class IntegerProblems {
 	}
 	
 	/* Problem statement: Print the elements of an array using a while loop.
-	 * Psuedocode for printElementsUsingWhileLoop():
-	 *   1. Create a function that takes in an array of integers.
+	 * Psuedocode for printElementsUsingWhileLoop() function:
+	 *   1. Create a function that takes in an array of integers as a parameter and returns the printed elements of the array.
 	 *   2. Declare and initialize a variable named counter to 0.
 	 *   3. Declare and initialize a variable named length to the length of the array.
 	 *   4. While the counter is less than the array length print the index of the array and increment the counter.
@@ -151,6 +152,15 @@ public class IntegerProblems {
 		return counter;//O(1) constant time operation 
 	}
 	
+	
+	/* Problem statement: Find if an integer is either even or odd.
+	 * Psuedocode for checkIfIntegerIsEvenOrOdd() function: 
+	 *   1. Create a void function that takes in a integer named num as a parameter.
+	 *   2. Check if the modulus 2 of the num variable equals 0. 
+	 *   3. If it is, print the num variable and that its even.
+	 *   4. Else print the num variable and that its odd. 
+	 * 
+	 */
 	
 }
 
