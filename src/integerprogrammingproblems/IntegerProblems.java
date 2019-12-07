@@ -120,8 +120,8 @@ public class IntegerProblems {
 	  */                                       
 	
 	static void getMiddleElement(int[] arr,int firstIndex,int lastIndex) {
-		int middleElement = (firstIndex + lastIndex) / 2;//O(1) time complexity 
-		System.out.println("The middle element is: " + middleElement + " and the element at the middle index is:" + arr[middleElement]);//O(1) time complexity
+		int middleElement = (firstIndex + lastIndex) / 2;//O(1) constant time complexity 
+		System.out.println("The middle element is: " + middleElement + " and the element at the middle index is:" + arr[middleElement]);//O(1) constant time complexity
 		
 	}
 	
@@ -132,20 +132,23 @@ public class IntegerProblems {
 	 *   3. Declare and initialize a variable named length to the length of the array.
 	 *   4. While the counter is less than the array length print the index of the array and increment the counter.
 	 *   5. Return the counter of the array.
+	 *   
+	 * Space and time complexity analysis of printElementsUsingWhileLoop(): O(1 + 1 + 1 + 1 + 1) + O(n) = O(n)
+	 *                                       printElementsUsingWhileLoop() = O(n)
 	 *    
 	 * 
 	 */
 	
 	static int printElementsUsingWhileLoop(int[] arr) {
-		int counter = 0;
-		int length = arr.length;
+		int counter = 0;//O(1) constant time operation
+		int length = arr.length;//O(1) constant time operation 
 		
-		while(counter < length) {
-			System.out.println(arr[counter]);
-			counter++;
+		while(counter < length) {//O(n) linear time operation 
+			System.out.println(arr[counter]);//O(1) constant time operation 
+			counter++;//O(1) constant time operation
 			
 		}
-		return counter;
+		return counter;//O(1) constant time operation 
 	}
 	
 	
