@@ -9,8 +9,9 @@ public class IntegerProblems {
 	 
 		
         int[] arr = { 2, 3, 4, 10, 40, 45, 12, 23, 1,12,13,14,12}; 
-        getMiddleElement(arr, 0, arr.length - 1);
-       
+        //getMiddleElement(arr, 0, arr.length - 1);
+       //System.out.println(sumArray(arr));
+        whileLoop(arr);
 		
     } 
 		
@@ -124,6 +125,16 @@ public class IntegerProblems {
 		
 	}
 	
+	/* Problem statement: Print the elements of an array using a while loop.
+	 * Psuedocode for printElementsUsingWhileLoop():
+	 *   1. Create a function that takes in an array of integers.
+	 *   2. Declare and initialize a variable named counter to 0,
+	 *   3. Declare and initialize a variable named length to the length of the array.
+	 *   4. While the counter is less than the array length print the index of the array and increment the counter.
+	 *   5. Return the the elements of the array.
+	 *    
+	 * 
+	 */
 	
 	
 }
