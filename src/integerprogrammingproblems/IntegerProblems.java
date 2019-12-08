@@ -10,7 +10,10 @@ public class IntegerProblems {
 		
         //int[] arr = { 2, 3, 4, 10, 40, 45, 12, 23, 1,12,13,14,12}; 
         
-        checkIfIntegerIsEvenOrOdd(22);
+       // checkIfIntegerIsEvenOrOdd(22);
+		
+		
+		
 		
     } 
 		
@@ -133,7 +136,7 @@ public class IntegerProblems {
 	 *   5. Return the counter of the array.
 	 *   
 	 * Space and time complexity analysis of printElementsUsingWhileLoop(): O(1 + 1 + 1 + 1 + 1) + O(n) = O(n)
-	 *                                       printElementsUsingWhileLoop() = O(n)
+	 *                                       printElementsUsingWhileLoop() = O(n) complexity
 	 *    
 	 * 
 	 */
@@ -158,17 +161,21 @@ public class IntegerProblems {
 	 *   3. If it is, print the num variable and that its even.
 	 *   4. Else print the num variable and that its odd. 
 	 * 
-	 */
+	 * Space and time complexity of analysis of checkIfIntegerIsEvenOrOdd(): O(1 + 1 + 1) = O(1)
+	 *                                          checkIfIntegerIsEvenOrOdd() = O(1) time complexity
+	 */              
 	
 	static void checkIfIntegerIsEvenOrOdd(int num) {
-		if(num % 2 == 0) {
-			System.out.println(num + " is even");
+		if(num % 2 == 0) {//O(1) constant time operation 
+			System.out.println(num + " is even");//O(1) constant time operation
 		}
 		else {
-			System.out.println(num + " is odd");
+			System.out.println(num + " is odd");//O(1) constant time operation
 		}
 		
 	}
+	
+	
 	
 }
 
