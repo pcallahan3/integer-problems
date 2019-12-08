@@ -6,18 +6,13 @@ public class IntegerProblems {
 
 	public static void main(String[] args) {
 		
-	 
-		
         //int[] arr = { 2, 3, 4, 10, 40, 45, 12, 23, 1,12,13,14,12}; 
         
        // checkIfIntegerIsEvenOrOdd(22);
-		
-		
-		
+	
 		
     } 
 		
-
 	
 	/* Problem statement: Sum an array of integers.
 	 * Pseudocode for sumArray() function:
@@ -138,7 +133,6 @@ public class IntegerProblems {
 	 * Space and time complexity analysis of printElementsUsingWhileLoop(): O(1 + 1 + 1 + 1 + 1) + O(n) = O(n)
 	 *                                       printElementsUsingWhileLoop() = O(n) complexity
 	 *    
-	 * 
 	 */
 	
 	static int printElementsUsingWhileLoop(int[] arr) {
