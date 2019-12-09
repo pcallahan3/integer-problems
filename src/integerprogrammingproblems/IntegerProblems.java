@@ -9,7 +9,13 @@ public class IntegerProblems {
         //int[] arr = { 2, 3, 4, 10, 40, 45, 12, 23, 1,12,13,14,12}; 
         
        // checkIfIntegerIsEvenOrOdd(22);
+<<<<<<< HEAD
 	
+=======
+		
+		
+		
+>>>>>>> 4e9ba1f6701e08182fb8d454a8ab443e0a91bd13
 		
     } 
 		
