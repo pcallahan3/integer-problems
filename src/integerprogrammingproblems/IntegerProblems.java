@@ -1,14 +1,17 @@
 package integerprogrammingproblems;
 
+import org.junit.Test;
+
+import junit.framework.Assert;
 
 //A class to test integer programming problems
 public class IntegerProblems {
 
 	public static void main(String[] args) {
+	
 		
-        //int[] arr = { 2, 3, 4, 10, 40, 45, 12, 23, 1,12,13,14,12}; 
-        
-       // checkIfIntegerIsEvenOrOdd(22);
+		
+		
     } 
 		
 	
