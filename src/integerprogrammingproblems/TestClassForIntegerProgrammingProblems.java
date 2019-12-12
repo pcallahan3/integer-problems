@@ -16,7 +16,7 @@ public class TestClassForIntegerProgrammingProblems {
 		
 	}
 	
-	//Unit test for findElementInArray
+	//Unit test for findElementInArray() function
 	@Test
 	public void findElementInArrayUnitTest() {
 		IntegerProblems findElementInArrayTest = new IntegerProblems();
@@ -25,6 +25,13 @@ public class TestClassForIntegerProgrammingProblems {
 		
 	}
 	
+	//Unit test for findMaxIntegerInArray() function
+	@Test 
+	public void findMaxIntegerInArrayUnitTest(){
+		IntegerProblems findMaxIntegerInArrayTest = new IntegerProblems();
+		int[] testArr = {21,12,456,122,87};
+		assertEquals(456, findMaxIntegerInArrayTest.findMaxIntegerInArray(testArr));
+	}
 	
 
 }

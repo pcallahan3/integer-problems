@@ -68,7 +68,7 @@ public class IntegerProblems {
 	 * 
 	 */
 	 
-	static int findMaxIntegerInArray(int[] arr) {
+	int findMaxIntegerInArray(int[] arr) {
 		int max = arr[0];//O(1) constant time operation
 		for(int i = 0;i < arr.length;i++) {//O(n) linear time operation 
 			if(arr[i] > max) {//O(1) constant time operation 
