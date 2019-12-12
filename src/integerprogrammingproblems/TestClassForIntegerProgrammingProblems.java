@@ -33,5 +33,13 @@ public class TestClassForIntegerProgrammingProblems {
 		assertEquals(456, findMaxIntegerInArrayTest.findMaxIntegerInArray(testArr));
 	}
 	
+	//Unit test for findMinIntegerInArray() function
+	@Test
+	public void findMinIntegerInArrayUnitTest() {
+		IntegerProblems findMinIntegerInArrayTest = new IntegerProblems();
+		int[] testArr = {233,216,765,23,12,78};
+		assertEquals(12, findMinIntegerInArrayTest.findMinIntegerInArray(testArr));
+	}
+	
 
 }
