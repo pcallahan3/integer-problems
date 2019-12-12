@@ -23,7 +23,7 @@ public class IntegerProblems {
 	 * Space and time complexity of sumArray() = O(1 + 1 + 1) + O(n) = O(n)
 	 *                              sumArray() = O(n) complexity
 	 */
-	static int sumArray(int[] arr) {
+	public int sumArray(int[] arr) {
 		int sum = 0;// O(1) constant time operation
 		for(int i = 0;i < arr.length;i++) {//O(n) linear time operation 
 			sum += arr[i];//O(1) constant time operation 
@@ -45,7 +45,7 @@ public class IntegerProblems {
 	 *                              findElementInArray() = O(n) complexity 
 	 */
 	
-	static int findElementInArray(int[] arr,int key) {
+	public int findElementInArray(int[] arr,int key) {
 		for(int i = 0;i < arr.length;i++) {//O(n) linear time operation 
 			if(arr[i] == key) {//O(1) constant time operation 
 				return key;//O(1) constant time operation 
@@ -68,7 +68,7 @@ public class IntegerProblems {
 	 * 
 	 */
 	 
-	int findMaxIntegerInArray(int[] arr) {
+	public int findMaxIntegerInArray(int[] arr) {
 		int max = arr[0];//O(1) constant time operation
 		for(int i = 0;i < arr.length;i++) {//O(n) linear time operation 
 			if(arr[i] > max) {//O(1) constant time operation 
@@ -91,7 +91,7 @@ public class IntegerProblems {
 	 *                               findMinIntegerInArray() = O(n) complexity 
 	 */
 	
-	static int findMinIntegerInArray(int[] arr) {
+	public static int findMinIntegerInArray(int[] arr) {
 		int min = arr[0];//O(1) constant time operation 
 		for(int i = 0;i < arr.length;i++) {//O(n) linear time operation 
 			if(arr[i] < min) {//O(1) constant time operation
@@ -114,10 +114,10 @@ public class IntegerProblems {
 	  *                                        getMiddleElement() = O(1) complexity 
 	  */                                       
 	
-	static void getMiddleElement(int[] arr,int firstIndex,int lastIndex) {
+	public void getMiddleElement(int[] arr,int firstIndex,int lastIndex) {
 		int middleElement = (firstIndex + lastIndex) / 2;//O(1) constant time complexity 
 		System.out.println("The middle element is: " + middleElement + " and the element at the middle index is:" + arr[middleElement]);//O(1) constant time complexity
-		
+	
 	}
 	
 	/* Problem statement: Print the elements of an array using a while loop.
@@ -133,7 +133,7 @@ public class IntegerProblems {
 	 *    
 	 */
 	
-	static int printElementsUsingWhileLoop(int[] arr) {
+	public int printElementsUsingWhileLoop(int[] arr) {
 		int counter = 0;//O(1) constant time operation
 		int length = arr.length;//O(1) constant time operation 
 		
@@ -157,7 +157,7 @@ public class IntegerProblems {
 	 *                                          checkIfIntegerIsEvenOrOdd() = O(1) time complexity
 	 */              
 	
-	static void checkIfIntegerIsEvenOrOdd(int num) {
+	public void checkIfIntegerIsEvenOrOdd(int num) {
 		if(num % 2 == 0) {//O(1) constant time operation 
 			System.out.println(num + " is even");//O(1) constant time operation
 		}

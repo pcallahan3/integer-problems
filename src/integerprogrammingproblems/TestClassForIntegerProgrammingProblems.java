@@ -1,4 +1,6 @@
 package integerprogrammingproblems;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.Test;
@@ -39,7 +41,9 @@ public class TestClassForIntegerProgrammingProblems {
 		IntegerProblems findMinIntegerInArrayTest = new IntegerProblems();
 		int[] testArr = {233,216,765,23,12,78};
 		assertEquals(12, findMinIntegerInArrayTest.findMinIntegerInArray(testArr));
+		
 	}
 	
+
 
 }
