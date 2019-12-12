@@ -1,10 +1,7 @@
 package integerprogrammingproblems;
 
-import org.junit.Test;
 
-import junit.framework.Assert;
-
-//A class to test integer programming problems
+//A class for integer programming problems
 public class IntegerProblems {
 
 	public static void main(String[] args) {
