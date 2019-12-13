@@ -1,6 +1,8 @@
 package integerprogrammingproblems;
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.Test;
@@ -52,5 +54,15 @@ public class TestClassForIntegerProgrammingProblems {
 		assertEquals(98, getMiddleElementTest.getMiddleElement(testArr, 0, testArr.length - 1));
 		
 	}
+	
+	//Unit test for checkIfIntegerIsEvenOrOdd() function
+	@Test 
+	public void checkIfIntegerIsEvenOrOdd() {
+		IntegerProblems checkIfIntegerIsEvenOrOddTest = new IntegerProblems();
+		int num = 23;
+		assertFalse(checkIfIntegerIsEvenOrOddTest.checkIfIntegerIsEvenOrOdd(num));
+		
+	}
+	
 	
 }
