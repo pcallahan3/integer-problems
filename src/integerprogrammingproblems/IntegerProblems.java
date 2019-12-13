@@ -1,12 +1,14 @@
 package integerprogrammingproblems;
 
 
+
 //A class for integer programming problems
 public class IntegerProblems {
 
 	public static void main(String[] args) {
 	
 		
+		int[] arr = {1,2,4,5,6,7};
 		
 		
     } 
@@ -103,20 +105,19 @@ public class IntegerProblems {
 	}
 	
 
-	 /* Problem statement: Find the middle element of an array and print the element and index where element is
-	  *                    located at.
+	 /* Problem statement: Find the middle element of an array and return the element.
 	  * Pseudocode for getMiddleElement() function:
-	  *   1. Create a void function that takes in 3 arguments, an array, the first index, and the last index.
+	  *   1. Create a function that takes in 3 arguments, an array, the first index, and the last index.
 	  *   2. Declare a variable named middleElement and initialize to the first index + the last index / by 2.
-	  *   3. Print the middle index of the array and the element at the index.
+	  *   3. Return the middle element of the array.
 	  * 
-	  *  Space and time complexity analysis of getMiddleElement(): O(1 + 1) = O(1)
+	  *  Space and time complexity analysis of getMiddleElement(): O(1) = O(1)
 	  *                                        getMiddleElement() = O(1) complexity 
 	  */                                       
 	
-	public void getMiddleElement(int[] arr,int firstIndex,int lastIndex) {
+	public int getMiddleElement(int[] arr,int firstIndex,int lastIndex) {
 		int middleElement = (firstIndex + lastIndex) / 2;//O(1) constant time complexity 
-		System.out.println("The middle element is: " + middleElement + " and the element at the middle index is:" + arr[middleElement]);//O(1) constant time complexity
+		return arr[middleElement];
 	
 	}
 	

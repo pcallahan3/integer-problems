@@ -43,7 +43,6 @@ public class TestClassForIntegerProgrammingProblems {
 		assertEquals(12, findMinIntegerInArrayTest.findMinIntegerInArray(testArr));
 		
 	}
+		
 	
-
-
 }
