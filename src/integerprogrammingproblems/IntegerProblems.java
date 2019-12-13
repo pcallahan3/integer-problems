@@ -111,13 +111,13 @@ public class IntegerProblems {
 	  *   2. Declare a variable named middleElement and initialize to the first index + the last index / by 2.
 	  *   3. Return the middle element of the array.
 	  * 
-	  *  Space and time complexity analysis of getMiddleElement(): O(1) = O(1)
+	  *  Space and time complexity analysis of getMiddleElement(): O(1 + 1) = O(1)
 	  *                                        getMiddleElement() = O(1) complexity 
 	  */                                       
 	
 	public int getMiddleElement(int[] arr,int firstIndex,int lastIndex) {
 		int middleElement = (firstIndex + lastIndex) / 2;//O(1) constant time complexity 
-		return arr[middleElement];
+		return arr[middleElement];//O(1) constant time complexity
 	
 	}
 	

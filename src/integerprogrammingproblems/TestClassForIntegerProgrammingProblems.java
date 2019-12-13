@@ -43,6 +43,14 @@ public class TestClassForIntegerProgrammingProblems {
 		assertEquals(12, findMinIntegerInArrayTest.findMinIntegerInArray(testArr));
 		
 	}
+	
+	//Unit test for getMiddleElement() function
+	@Test 
+	public void getMiddleElementUnitTest() {
+		IntegerProblems getMiddleElementTest = new IntegerProblems();
+		int[] testArr = {6,78,23,98,67,90,45};
+		assertEquals(98, getMiddleElementTest.getMiddleElement(testArr, 0, testArr.length - 1));
 		
+	}
 	
 }
