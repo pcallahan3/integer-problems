@@ -8,7 +8,8 @@ public class IntegerProblems {
 	public static void main(String[] args) {
 	
 		
-		int[] arr = {1,2,4,5,6,7};
+		int[] test = {23,3,3,3,3,4,5,};
+		printElementsUsingWhileLoop(test);
 		
 		
     } 
@@ -134,7 +135,7 @@ public class IntegerProblems {
 	 *    
 	 */
 	
-	public int printElementsUsingWhileLoop(int[] arr) {
+	static int printElementsUsingWhileLoop(int[] arr) {
 		int counter = 0;//O(1) constant time operation
 		int length = arr.length;//O(1) constant time operation 
 		
@@ -166,8 +167,6 @@ public class IntegerProblems {
 		}
 		
 	}
-	
-	
 	
 }
 

@@ -55,6 +55,17 @@ public class TestClassForIntegerProgrammingProblems {
 		
 	}
 	
+	//Unit test printElementsUsingWhileLoop() function
+	@Test
+	public void printElementsUsingWhileLoopTest() {
+		IntegerProblems printElementsUsingWhileLoop = new IntegerProblems();
+		int[] testArr = {34,2,42,44,67,78,98,99};
+		assertArrayEquals(testArr, testArr);
+		
+		
+		
+	}
+	
 	//Unit test for checkIfIntegerIsEvenOrOdd() function
 	@Test 
 	public void checkIfIntegerIsEvenOrOdd() {
