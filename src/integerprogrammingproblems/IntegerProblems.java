@@ -150,20 +150,19 @@ public class IntegerProblems {
 	/* Problem statement: Find if an integer is either even or odd.
 	 * Psuedocode for checkIfIntegerIsEvenOrOdd() function: 
 	 *   1. Create a void function that takes in a integer named num as a parameter.
-	 *   2. Check if the modulus 2 of the num variable equals 0. 
-	 *   3. If it is, print the num variable and that its even.
-	 *   4. Else print the num variable and that its odd. 
+	 *   2. Check if the modulus 2 of the num variable equals 0, return true.
+	 *   3. Else return false.
 	 * 
 	 * Space and time complexity of analysis of checkIfIntegerIsEvenOrOdd(): O(1 + 1 + 1) = O(1)
 	 *                                          checkIfIntegerIsEvenOrOdd() = O(1) time complexity
 	 */              
 	
-	public void checkIfIntegerIsEvenOrOdd(int num) {
-		if(num % 2 == 0) {//O(1) constant time operation 
-			System.out.println(num + " is even");//O(1) constant time operation
+	public boolean checkIfIntegerIsEvenOrOdd(int num) {
+		if(num % 2 == 0) {
+			return true;
 		}
 		else {
-			System.out.println(num + " is odd");//O(1) constant time operation
+			return false;
 		}
 		
 	}
